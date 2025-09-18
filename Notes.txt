@@ -1,1 +1,17 @@
-Delibration perdiod : a set duration of time allocated for careful, reasoned consideration of an issue or decision before action is taken or a final judgment is made
+1) Delibration perdiod : a set duration of time allocated for careful, reasoned consideration of an issue or decision before action is taken or a final judgment is made
+2) What is Virtual Contructor vs Virtual Destructor?
+3) What is the Order of Execution of the Constructor?
+                Constructor        Destructor
+  1-->ClassC      C                    A
+  2-->ClassB      B                    B
+  3-->ClassA      A                    C
+
+4) What runtime vs CompileTime polymorphism ?
+5) How to make two Executables  communicate Through the Remote Procedural Call and How the use of the IPC mechanism Will be used make Such Small Project ?
+6) What are the Access specifier that c++ Supports?
+  Answer --> Private ,Protected , Public and
+7) How the Private and Protected member functions can be used what is Friend Class and Where it is used for ?
+8) What is Stl Libraries and Why it is used for?
+9) What are the Types of Pointer?
+10) Hld vs  lld ?
+11) Diffrence between refrence variable and pointers? and How many types of pointer are there?
