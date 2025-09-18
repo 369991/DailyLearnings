@@ -15,3 +15,9 @@
 9) What are the Types of Pointer?
 10) Hld vs  lld ?
 11) Diffrence between refrence variable and pointers? and How many types of pointer are there?
+12) How to add the ThirdParty libraries in Cmake ?
+13) What Changes we need to do to Migrate the qmake project to the Cmake ones?
+14) What is the Proxy Model ?
+15) Do You Work on TreeModel ?
+16) Do You Have Used the ?
+17) How to Dynamic Object Creation Works in qml Explain?
