@@ -21,3 +21,58 @@
 15) Do You Work on TreeModel ?
 16) Do You Have Used the ?
 17) How to Dynamic Object Creation Works in qml Explain?
+Short Notes for Quick Revision
+1. Virtual Destructor
+Ensures derived class destructor is called when deleting via base pointer. Prevents resource leaks in inheritance.
+
+2. Inherit Private Class
+You cannot inherit a private class. Only members can be private; classes themselves cannot.
+
+3. Friend Class
+A class declared as friend can access private/protected members of another class. Friendship is not mutual or inherited.
+
+4. Diamond Problem
+Occurs in multiple inheritance when two base classes inherit from the same ancestor. Solved using virtual inheritance to avoid duplicate base members.
+
+5. Namespace
+A container for identifiers to avoid naming conflicts. Access members using namespace::member.
+
+6. Threading Libraries in C++
+
+std::thread: C++11 standard, portable, RAII, exception-safe.
+pThread: POSIX, C-style, manual management, Unix/Linux only.
+7. RAIL
+Web performance model:
+
+Response (<50ms),
+Animation (60fps),
+Idle (background tasks),
+Load (<1000ms to interactive).
+8. RAII
+Resource Acquisition Is Initialization:
+Resources are acquired in constructors and released in destructors, ensuring safe management.
+
+9. Strategy Pattern
+Encapsulates algorithms in separate classes; context uses them interchangeably. Promotes flexibility and maintainability.
+
+10. Reference vs Pointer
+
+Reference: Alias, cannot be null/reassigned, implicit access.
+Pointer: Stores address, can be null/reassigned, explicit dereferencing.
+11. HLD (High-Level Design)
+Defines system architecture, modules, and relationships. Big-picture overview, no implementation details.
+
+12. LLD (Low-Level Design)
+Detailed design: class diagrams, database schema, API specs, function logic. Guides actual coding.
+
+13. AbstractListModel & ListView (Qt/QML)
+Subclass QAbstractListModel, implement required methods, expose to QML, bind to ListView for dynamic data display.
+
+14. Send JSON to C++
+Send JSON as a string, parse using a library (e.g., nlohmann/json).
+
+15. Dynamic Linking in QML & Loader
+Use Loader to load QML components/files at runtime. Enables dynamic UI, loads/unloads views as needed.
+
+Use these notes for quick revision before interviews or exams!
+
